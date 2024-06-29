@@ -1,0 +1,48 @@
+.sectionCard {
+    margin-top: 5rem;   
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container__cards {
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    gap: 4em;
+    margin-right: 15rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    .container__cards {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2em;
+        margin-right: 0;
+    }
+
+    .card {
+        width: calc(50% - 2em);
+        margin-bottom: 2em;
+    }
+}
+
+@media (max-width: 768px) {
+    .container__cards {
+        flex-direction: column;
+        margin-right: 0;
+    }
+
+    .card {
+        width: 100%;
+        margin-bottom: 1em;
+    }
+}
