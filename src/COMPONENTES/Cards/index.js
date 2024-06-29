@@ -39,7 +39,7 @@ const Card = () => {
 
                 <div className="col-6 col-xl-2 col-md-4 g-4">
                     <div className="card cards__mover">
-                        <img src='./imagens-card/logo puma.png' alt='Logo Puma ' />
+                        <img src='./imagens-card/puma.png' alt='Logo Puma ' />
                         <div className="card-body">
                         </div>
                     </div>
