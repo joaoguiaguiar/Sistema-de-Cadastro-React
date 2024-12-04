@@ -88,7 +88,7 @@ function App() {
       id: uuidv4(),
       nome: 'CAMISA FLAMENGO I 24/25',
       categoria: 'Camiseta',
-      imagem: 'https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/5e367970a920455db510eacdaafbb7ef_9366/Camisa_Flamengo_I_24-25_Vermelho_IP8199_01_laydown.jpg',
+      imagem: 'https://imgcentauro-a.akamaihd.net/768x768/98697906.jpg',
       marca: marcas[2].nome
     },
     {
@@ -184,7 +184,7 @@ function App() {
           corSecundaria={marca.corSecundaria}
           produtos={produtos.filter(produto => produto.marca === marca.nome)}
           aoDeletar={deletarProduto}
-          mudarCor={mudarCor} // Passar a função mudarCor para o componente Marca
+          mudarCor={mudarCor} 
         />
       )}
 

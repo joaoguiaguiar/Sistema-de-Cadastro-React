@@ -21,7 +21,6 @@ const Formulario = (props) => {
             imagem,
             marca
         });
-        //limpando quando cadastrar card
         setNome('');
         setCategoria('');
         setImagem('');
